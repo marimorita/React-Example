@@ -1,2 +1,2 @@
 import  React  from 'react';
-export const Items = ({ contet }) => <li><a href ="">{contet}</a></li>
+export const Items = ({ content }) => <li><a href ="">{content}</a></li>

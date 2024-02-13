@@ -1,11 +1,11 @@
 import { Logo } from './components/Logo/Logo'
-import './App.css'
+import { Home } from './components/Pages/Home/Home'
 
 function App() {
 
   return (
     <>
-    <Logo />
+    <Home/>
     </>
   )
 }
