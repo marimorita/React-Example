@@ -1,2 +1,3 @@
 import  React  from 'react';
-export const Items = ({ content }) => <li><a href ="">{content}</a></li>
+import { NavLink } from 'react-router-dom';
+export const Items = ({ content,route }) => <li><NavLink to={route}>{content}</NavLink></li>

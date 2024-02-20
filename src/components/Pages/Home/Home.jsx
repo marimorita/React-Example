@@ -7,12 +7,6 @@ import { Logo } from '../../Logo/Logo'
 
 export const Home = () => {
   return (
-    <Header>
-      <Logo/>
-        <Navbar>
-            <Items content =" Mari :p "/>
-            <Items content =" Muaki "/>
-        </Navbar>
-    </Header>
+   <div>Home</div>
   )
 }
