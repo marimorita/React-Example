@@ -3,7 +3,7 @@ import { Header } from './components/Layouts/Header/Header'
 import { Logo } from './components/Logo/Logo'
 import Navbar from './components/Navbar/Navbar'
 import { NotFound } from './components/NotFound/NotFound'
-import { AboutMe } from './components/Pages/AboutMe/AboutMe'
+import { Perfil } from './components/Pages/Perfil/Perfil'
 import { Home } from './components/Pages/Home/Home'
 import { useRoutes } from 'react-router-dom'
 
@@ -11,7 +11,7 @@ import { useRoutes } from 'react-router-dom'
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: '/', element: <Home/>},
-    { path: '/AboutMe', element: <AboutMe/>},
+    { path: '/Perfil', element: <Perfil/>},
     { path: '*', element: <NotFound/>},
 
   ])
@@ -25,11 +25,13 @@ function App() {
     <>
     <Header>
       <Logo/>
+      <h1>Mari</h1>
       <Navbar>
-        <Items content = 'Incio' route = './' />
-        <Items content = 'Acerca de mi' route = './AboutMe' />
-        <Items content = 'Incio' route = './' />
-
+        <Items content = 'Inicio' route = './' />
+        <Items content = 'Pefil' route = './Perfil' />
+        <Items content = 'Proyectos' route = './' />
+        <Items content = 'Referencias' route = './' />
+        <Items content = 'Experiencia' route = './' />
       </Navbar>
     </Header>
     <AppRoutes/>
