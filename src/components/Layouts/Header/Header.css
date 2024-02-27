@@ -5,7 +5,7 @@ Header{
     display: flex;
     flex-direction: column;
     background-color: #39a900;
-    width: 30vw;
+    width: 25vw;
     height: 100vh;
     justify-content: space-around;
     align-items: center;
@@ -22,9 +22,16 @@ ul{
     font-size: 2rem;
     padding: 0;
 }
+ul a{
+    color: #c1ff95;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #39a900;
+}
 
 header h1{ 
-    
+    text-decoration: underline;  
+    color: #FFFF;
 }
+
 
 

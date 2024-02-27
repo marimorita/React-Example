@@ -1,5 +1,3 @@
 import React from 'react'
-import logo  from '../../assets/logo.jpg';
-import "./Logo.css"
 
-export const Logo = () => <img src={logo} alt="logo" />
+export const Logo = ({content}) => <img src={content} alt="logo" />
