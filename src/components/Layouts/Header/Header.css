@@ -31,6 +31,18 @@ ul a{
 header h1{ 
     color: #FFFF;
     text-align: center;
+<<<<<<< HEAD
+=======
+}
+
+header hr{
+    width: 14rem;
+    height: 7px;
+    color: #FFFF;
+    background-color: #FFFF;
+    margin-top: -55px;
+
+>>>>>>> 84b0959974b95811e6352bb489ae1ad9f7ad4a1e
 }
 
 header hr{

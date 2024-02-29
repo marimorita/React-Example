@@ -7,4 +7,3 @@ export const Navbar = ({children}) => {
     </ul>
   )
 }
-export default Navbar

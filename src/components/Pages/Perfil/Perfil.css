@@ -11,6 +11,7 @@ hr{
 h1{
     color: #5A5A5D;
     text-decoration: dashed;
+<<<<<<< HEAD
     display: flex;
     align-items: center;
 }
@@ -20,11 +21,21 @@ h1{
 }
 .description{
     margin: 3rem;
+=======
+}
+.description{
+    margin: 3rem;
+
+>>>>>>> 84b0959974b95811e6352bb489ae1ad9f7ad4a1e
 }
 .description img{
     background-color: #c1ff95;
     margin: 10px;
+<<<<<<< HEAD
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
+=======
+    border-radius: 0%;
+>>>>>>> 84b0959974b95811e6352bb489ae1ad9f7ad4a1e
 }

@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+div#root {
+  display: flex;
+
+}
+
 body {
   margin: 0;
   display: flex;
@@ -57,9 +62,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+<<<<<<< HEAD
 main{
   padding: 0 0 0 20%;
 }
 
+=======
+
+main {
+  padding: 0 0 0 20%;
+}
+>>>>>>> 84b0959974b95811e6352bb489ae1ad9f7ad4a1e
 
 

@@ -1,5 +1,9 @@
 import { useState } from 'react'
+<<<<<<< HEAD
 import { useRoutes } from 'react-router-dom'
+=======
+import { useRoutes } from 'react-router-dom'       
+>>>>>>> 84b0959974b95811e6352bb489ae1ad9f7ad4a1e
 
 import { Home } from './components/Pages/Home/Home'
 import { Perfil } from './components/Pages/Perfil/Perfil'
@@ -45,7 +49,11 @@ function App() {
       <SocialMedia />
     </Header>
     <Logo content={logoSena}/>
+<<<<<<< HEAD
      <AppRoutes/>
+=======
+     <AppRoutes/>  
+>>>>>>> 84b0959974b95811e6352bb489ae1ad9f7ad4a1e
     </>
   )
 }
