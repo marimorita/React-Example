@@ -1,11 +1,16 @@
 import React from 'react'
-import Navbar from '../../Navbar/Navbar'
-import { Header } from '../../Layouts/Header/Header'
-import { Items } from '../../Items/Items'
-import { Logo } from '../../Logo/Logo'
+import { Main } from '../../Layouts/Main/Main'
+import { Perfil } from '../Perfil/Perfil'
+
 
 export const Home = () => {
   return (
-   <div>Home</div>
+   < >
+   <Main>
+     <section>
+   <Perfil />
+     </section>
+   </Main>
+   </>
   )
 }

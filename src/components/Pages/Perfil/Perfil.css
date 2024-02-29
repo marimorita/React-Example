@@ -1,0 +1,30 @@
+p{
+    color: #5A5A5D;
+    margin: 0px, 4px, 0px, 4px;
+}
+hr{
+    background-color: #c1ff95;
+    width: 90rem;
+    height: 15px;
+    border: none;
+}
+h1{
+    color: #5A5A5D;
+    text-decoration: dashed;
+    display: flex;
+    align-items: center;
+}
+.profileImage{
+    display: flex;
+    align-items: center;
+}
+.description{
+    margin: 3rem;
+}
+.description img{
+    background-color: #c1ff95;
+    margin: 10px;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
