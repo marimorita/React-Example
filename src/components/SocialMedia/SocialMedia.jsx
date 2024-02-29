@@ -1,19 +1,19 @@
 import React from "react";
-import { BsLinkedin } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import "./SocialMedia.css"
 
 export const SocialMedia = () => {
     return(
         <div className="SocialFather">
-            <a className="social" href=""><BsLinkedin /></a>
-            <a className="social" href=""><BsFacebook /></a>
-            <a className="social" href=""><BsInstagram /></a>
-            <a className="social" href=""><BsTwitter /></a>
-            <a className="social" href=""><BsWhatsapp /></a>
+              <FaLinkedinIn className="social" />
+              <FaFacebookF  className="social" />
+              <FaInstagram  className="social" />
+              <FaTwitter    className="social" />
+              <FaWhatsapp   className="social" />
         </div>
     )
 }

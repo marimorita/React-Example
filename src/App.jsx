@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useRoutes } from 'react-router-dom'
 
 import { Home } from './components/Pages/Home/Home'
 import { Perfil } from './components/Pages/Perfil/Perfil'
@@ -43,11 +44,7 @@ function App() {
       <Logo content={logoSena}/>
       <SocialMedia />
     </Header>
-    <Logo content={logoSena}/>
      <AppRoutes/>
-
-     <AppRoutes/>  
-
     </>
   )
 }

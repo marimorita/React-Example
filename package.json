@@ -14,6 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
+    "react-intro": "^0.0.0-alpha",
     "react-router-dom": "6.4"
   },
   "devDependencies": {
